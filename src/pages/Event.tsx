@@ -12,7 +12,13 @@ export function Event() {
             <main className="flex flex-1">
                 { slug
                 ? <Video lessonSlug={slug} />
-                : <div className="flex-1" />
+                : <div className="max-w[100vw] flex-1 flex flex-col gap-2 items-center justify-start mt-48 text-center">
+                <span className="leading-loose text-xl text-gray-200 ">
+                  Choose a class!
+                </span>
+                <img src="/src/assets/choose.svg" className="mt-10" alt="Choose-a-lesson" />
+
+              </div>
                 }
                 <Sidebar />
             </main>

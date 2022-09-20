@@ -84,12 +84,12 @@ export function Video(props: VideoProps) {
                     <div className="flex flex-col gap-4 ">
                         <a href="" className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
                             <DiscordLogo size={24} />
-                            Comunidade do Discord
+                            Discord Community
                         </a>
 
                         <a href="" className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-900 transition-colors]\">
                             <Lightning size={24} />
-                            Acesse o Desafio
+                            Access the Challenge
                         </a>
                     </div>
 
@@ -102,9 +102,9 @@ export function Video(props: VideoProps) {
                         </div>
 
                         <div className="py-6 leading-relaxed">
-                            <strong className="text-2xl">Material Complementar</strong>
+                            <strong className="text-2xl">Supplementary Material</strong>
                             <p className="text-sm text-gray-200 mt-2">
-                                Acesse o material complementar para acelerar o seu desenvolvimento
+                                Access the complementary material to accelerate your development
                             </p>
                         </div>
 
@@ -118,9 +118,10 @@ export function Video(props: VideoProps) {
                         </div>
 
                         <div className="py-6 leading-relaxed">
-                            <strong className="text-2xl">Wallpapers Exclusivos</strong>
+                            <strong className="text-2xl">Exclusive Wallpapers</strong>
                             <p className="text-sm text-gray-200 mt-2">
-                            Baixe wallpapers exclusivos do Ignite Lab e personalize a sua máquina                            </p>
+                                Download exclusive Ignite Lab wallpapers and customize your machine
+                            </p>
                         </div>
 
                         <div className="h-full p-6 flex items-center">
